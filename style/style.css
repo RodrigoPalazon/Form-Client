@@ -1,0 +1,88 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxINEA8NDQ8RDQ0NEBMNDQ0NEhINDQ0NFRIWFhURFRUYHSggGBolHRUVITEhMSkrLi4uFx8zODMtNygtLisBCgoKDQ0NFQ0NFy0dHR0tLSsrKystKysrKystLSsrKysrKystKysrKysrKysrLSsrKysrLSsrKy0tKystKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAIxABAAAFBAMBAQEAAAAAAAAAAAFBUdHhMWGR8BGxwaEhgf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOImQ7qrKmTupmYilqHddi1RF7psWonddi1QavTZPPyReuxiYLC8iEfkiF5piao1mW55+S3TM9zE9wXz9kvn3TZnM1vXYDz6jKK+fdNmczW9dhDz6jKK+fdNmbRnFb12A8/JHn3TZMTW9dhTz8kefdExMvGYHn5IjeSYmRvMFjH5JPP2RG0zM0Uj9okbyWP2qZmB38LHddktUF7+Id12Tuoqod1BRIqkQUAFMndTMxF7+FqJ3XYtUGu6bFqJ3XYtURq9Nk8/JF67GJgsI/ZELSSF5kI/Jqi5kuJbpmZie4L5+yiefdI0Tz9mt67Aefsonn3SNEzNb12A8+oyiefdI0S0ZreuwHn5KJ5902TEzz7rsBiUV8+6J5+TL1AxJPP2RiZmaKsY/JJmRG00jeYLeiZkXqZmB38Sy912S1RV7+Id12TuoKgCiRVmPf6DQAKZTupmYjXfwsnddi1QXv4WO67FqiLzr8OZF67JC0wah/s05kQvMxMF5mcyTMzz8mqLzNedfjOZreuwHM151+M+fs18+67Ac6Lzr8ZtVfPuuwHMl51+M4mt67AcyOU8/JndQOZHMzEzM0VY/wCyTmZHv9TMwVMndUjeYKljuuxaooHdU7qCoAokRIg0ACiHdRFLHdS1QXv4WTuuxaoNd/E5kd12MTEWBzIheaYmDXMzCZmYmC5L/EzMvXZReZl/iRvMvXYRbF/iWqXrsC4LpC0y9dkU5kqYmXqBzIj/ALNMTMzBYpkj3+mZgGTuqZmKvfxLHddktUFQAAQVUiIDQgCgApZARrsqJ2Qd1BTFDuuyYmI1Duhiid1MTBeZ0OZUTMzEwXmdF512ozma3rsBzOi867UZzNb12A502XnXajNqreuwHMqLzrszia3qBzKhz+JiZ3UFxRM0MTI3mC9kmaHdUzMF7JI3od1MigICoAoioAkVSIqgCKIoKgAoh3URrv4mDupiYKYTupiYLkxRMzMTEXma32ZzNe6gZot9qJmZ3XYDnTZb7US1S9dgMUVMTO6gYodkmJr3UDBlMTMzFVMke/1MzBTIgKgWFAQFQQFSKpFFUQUUARRAGkAFMIYEUxQTiQLmi4Tg4kBmi9knEzgFzQTiZx2ALbYTjQ47AFxQTiRwBii9knEjgDFDKcSOJgogCoAqoICoAAIKqCRQVUAUBQAEUQBpABUAFEBFyIAogCiALgQBcCAAAqoAAICoAAIKqAgIqAogCqgCiCigCKIAogCgAKgAqACoAAAAACAKgAAgKCCqgIAIAAAACiAKACiCiggKAIAAKgCiAKIAogAAAAKAgKIAAIAgCoAAAoAAAIogCgAAKKAAAIAAAAAAAAACgAIAAAgIAAAAAoIA/9k=);
+    background-size: 100%;
+}
+
+
+header{
+     height: 11%;
+     margin-top: 20px;
+     font-size: 26px;
+}
+
+#title{
+    color: white;
+    text-align: center;
+}
+
+#description{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+form{
+    font-size: 16px;
+    background-color: rgba(255, 248, 215, 0.815);
+    height: 30%;
+    width: 60%;
+    margin: 30px 20% 30px 20%;
+    border-radius: 3%;
+    border: groove darkblue 3px;
+}   
+
+#borderForm{
+    margin: 17px 17px 17px 21px;
+}
+
+#inputAge{
+    margin-bottom: 20px;
+}
+
+#lastRadio{
+    margin-bottom: 30px;
+}
+
+form select{
+    margin-bottom: 25px;
+}
+
+.labelStyle input {
+    width: 98%;
+    height: 22px;
+    margin-bottom: 4px;
+}
+
+select, button{
+    width: 98%;
+    height: 30px;
+    margin-bottom: 20px;  
+}
+
+button{
+    font-weight: bold;
+    font-size: 18px;
+    border: black groove 3px;
+}
+
+form p, .labelStyle{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;    
+}
+
+section{
+    display:grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    margin-top: 5px;
+}
+
+textarea{
+    width: 97.7%;
+    height: 150px;
+}

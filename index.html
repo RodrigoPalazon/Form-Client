@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js"></script>
+    <title>Survey Form</title>
+</head>
+
+<header> 
+    <h1 id="title">Tell us about yourself</h1>
+    <p id="description">Thank you for helping us improve our platform</p>
+ </header>
+
+<body>
+    
+
+    <form id="survey-form" action="" method="POST">
+      <div id="borderForm">
+        <label class="labelStyle">Name:<br>
+            <input type="text"
+                   id="name"
+                   name="name"
+                   placeholder="Enter your Name" 
+                   oninvalid="setCustomValidity('Type your Name')"
+                  required/></label><br>
+
+            <label class="labelStyle">Email:<br>
+            <input type="email"
+                   id="email"
+                   name="email"
+                   placeholder="Enter your Name" 
+                   oninvalid="setCustomValidity('Type your Email')"
+                   required/></label><br>
+
+            <label class="labelStyle">Age (optional):<br>
+            <input id="inputAge"
+                   name="age"
+                   placeholder="Enter your age" 
+                   min="10"
+                   max="99"
+                    /></label><br>
+
+            <p>What sort of programer you are?
+            </p>
+            <select name="role"
+                    oninvalid="setCustomValidity('Choose an option')"
+                    required>                    
+                    <option value="">--Please Choose an Option--</option>
+                    <option value="Front-End">Front-End</option>
+                    <option value="Back-End">Back-End</option>
+                    <option value="Full Stack">Full Stack</option>
+                    <option value="Other">Other</option>
+            </select>  
+            
+            <p>Would you recommend our plataform to a friend?
+            </p>
+          <section oninvalid="setCustomValidity('Choose an option')">
+            <label>
+                <input name="user-recommend"
+                  type="radio"
+                  value="definitely"
+                  checked/>Definitely
+            </label>
+
+            <label >
+                <input name="user-recommend"    
+                  type="radio"
+                  value="maybe"
+                  />Maybe
+             </label>
+
+            <label>
+            <input id="lastRadio" 
+                  name="user-recommend"    
+                  type="radio"
+                  value="not sure"
+                  />Not sure
+            </label>
+          </section>
+            <p >What is your favorite programming language ?
+            </p>
+                <select name="role"
+                        oninvalid="setCustomValidity('Choose an option')"
+                        required>
+                        
+                        <option value="">--Please Choose an Option--</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Java">Java</option>
+                        <option value="Python">Python</option>
+                        <option value="C++">C++</option>
+                        <option value="Other">Other</option>
+                </select>
+
+                <p>What programming knowledges would you like to improve/learn?
+                </p>
+          <section oninvalid="setCustomValidity('Choose an option')">
+            <label for="html5">
+                <input name="languages"
+                value="html5"
+                type="checkbox"
+                id="html5"
+                />
+                HTML5
+            </label>
+                
+            <label for="css3">
+                <input name="languages"
+                value="css3"
+                type="checkbox"
+                id="css3"
+                />
+                CSS3
+            </label>
+              
+            <label for="javascript">
+                <input name="languages"
+                value="javascript"
+                type="checkbox"
+                id="javascript"
+                />
+                JavaScript
+            </label>
+
+            <label for="react">    
+            <input name="languages"
+                value="react"
+                type="checkbox"
+                id="react"
+                />
+                React
+              </label>
+
+              <label for="nodejs">  
+              <input name="languages"
+                value="nodejs"
+                type="checkbox"
+                id="nodejs"
+                />
+                NodeJS
+              </label>
+
+              <label for="angular">  
+              <input name="languages"
+                value="angular"
+                type="checkbox"
+                id="angular"
+                />
+                Angular
+              </label>
+
+              <label for="jquery">  
+              <input name="languages"
+                value="jquery"
+                type="checkbox"
+                id="jqurey"
+                />
+                JQuery
+              </label>
+
+              <label for="wordpress">  
+              <input name="languages"
+                value="wordpress"
+                type="checkbox"
+                id="wordpress"
+                />
+                Wordpress
+              </label>
+              <label for="other"> 
+              <input name="languages"
+                value="other"
+                type="checkbox"
+                id="other"
+                />
+               Other
+              </label><br>
+          </section>
+
+
+            <p>Any comments or suggestions?</p>
+            <textarea name="comments" 
+                      id="comments" 
+                      placeholder="Enter your comment here...">
+            </textarea>
+
+            <button type="submit"
+                    id="btn"> Submit
+            </button>
+        </div>
+    </form>
+</body>
+</html>
